@@ -1,0 +1,229 @@
+         * {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: verdana,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    min-height: 200vh;
+}
+.button {
+    width: 10vw;
+    padding: 5px;
+    color: #3882f6;
+    margin-top: 10px;
+}
+.button:hover {
+    color: #3882f6;
+    transform: scale(0.9);
+}
+ a {
+    text-decoration: none;
+ }
+ a:hover {
+    color: green;
+    background: #3882f6;
+    border: 2px solid ;
+ }
+.top-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.top {
+    display: flex;
+    justify-content: space-around;
+    background: #1f2937;
+    width: 100vw;
+    height: 50vh;
+}
+.header {
+    margin-top: 30px;
+}
+.header .adam {
+    color: #f9faf8;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.header .adams {
+    margin-top: 30px;
+    color: #f9faf8;
+    font-size: 48px;
+    font-family: tahoma;
+    line-height: 1.0em;
+    text-transform: capitalize;
+}
+.header .adamss {
+  color: #f9faf8;
+  margin-top: 20px;
+  font-style: italic;
+}
+.navbar {
+    margin-top: 30px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 20vw;
+    font-size: 18px;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.images {
+    margin-top: 30px;
+    height: 30vh;
+}
+.middle-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 60vh;
+    background: #f9faf8;
+}
+.para {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+.flexdivs {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin-top: 50px;
+}
+
+.immm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 15vw;
+    height:25vh;
+    border-radius: 20px;
+}
+.s11 {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+}
+.s11 > p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 15vw;
+    height: 25vh;
+}
+.third-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 40vh;
+    background-color: #E5E7Eb;
+}
+.third {
+    display: flex;
+    width: 70vw;
+    line-height: 1.9em;
+}
+.texts  h2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.adass {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+.fourth-container {
+    display: flex;
+    justify-content: center;
+}
+.fourth {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 30vh;
+    background-color: #faf8f9;
+}
+.contt {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    width: 60vw;
+    padding: 20px;
+    height: 15vh;
+    background: linear-gradient(450deg, green, blue),purple;
+    color: #f9faf8;
+}
+.footer {
+    background-color: #1f2937;
+    width: 100vw;
+    height: 12vh;
+}
+.footer h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 18px;
+    padding: 25px;
+}
+@media (max-width: 500vw) {
+    .top-container > * ,
+    .middle-container > * ,
+    .third-container > * ,
+    .fourth-container > * ,
+    .footer > * {
+         position: static;
+         width: 100vw;
+    }
+    .top {
+        padding: 2px 8px;
+        height: 70vh;
+    }
+    .navbar {
+        padding-right: 20px;
+    }
+    .nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        width: 15vw;
+    }
+    .middle-container {
+        height: 100vh ;
+        text-align: center;
+    }
+    .flexdivs ,
+    .s11 {
+        display: flex;
+        margin-left: 50px;
+    }
+     .third-container {
+          height: 55vh; 
+     }
+    .texts{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    .contt {
+        height: 20vh;
+    }
+    
+}
