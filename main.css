@@ -131,6 +131,7 @@ body {
 }
 .third {
     display: flex;
+    justify-content: space-between;
     width: 70vw;
     line-height: 1.9em;
 }
