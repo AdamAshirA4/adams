@@ -1,14 +1,16 @@
-         * {
+ * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
+
 body {
     font-family: verdana,Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 1.6em;
     min-height: 200vh;
 }
+
 .button {
     width: 10vw;
     padding: 5px;
@@ -158,13 +160,13 @@ body {
 .fourth {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100vw;
-    height: 30vh;
+    height: 40vh;
     background-color: #faf8f9;
 }
 .contt {
     display: flex;
-    margin-top: 40px;
     justify-content: space-around;
     width: 60vw;
     padding: 20px;
